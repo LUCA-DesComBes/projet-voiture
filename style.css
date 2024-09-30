@@ -1,0 +1,80 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+	color: white;
+	margin: 3rem 0;
+}
+.gallery {
+	display: flex;
+	padding: 10px 200px 10px 200px;
+	background-color: blue;
+    border-radius: 10px;
+}
+.home {
+	display: flex;
+	padding: 10px 250px 10px 250px;
+	background-color: red;
+    border-radius: 10px;
+}
+.about {
+	display: flex;
+	padding: 10px 200px 10px 200px;
+	background-color: blue;
+    border-radius: 10px;
+}
+.photos {
+	display: flex;
+	flex-direction: row;
+    align-items: center;
+	justify-content: space-between;
+    margin-bottom: 2rem;
+}
+hr {
+	height: 5px;
+    background-color: black;
+    width: 1325px;
+}
+img {
+    height: 350px;
+    width: 530px;
+    object-fit: cover;
+}
+.car {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.flex-s {
+    display: flex;
+    flex-grow: 1;
+}
+.car-s {
+    display: flex;
+    flex-grow: 0.5;
+}
+.car-e {
+    display: flex;
+    flex-grow: 1;
+}
+button {
+    padding: 10px 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 25px 0;
+}
