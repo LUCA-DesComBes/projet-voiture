@@ -8,7 +8,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 }
 nav {
 	display: flex;
@@ -16,65 +16,74 @@ nav {
 	gap: 15px;
 	color: white;
 	margin: 3rem 0;
+	width: 100%;
 }
 .gallery {
 	display: flex;
-	padding: 10px 150px 10px 150px;
+	justify-content: center;
 	background-color: blue;
-    border-radius: 10px;
+	border-radius: 10px;
+	flex-grow: 1;
+}
+.gallery,
+.home,
+.about {
+    padding: 10px 0;
 }
 .home {
 	display: flex;
-	padding: 10px 250px 10px 250px;
+	justify-content: center;
 	background-color: red;
-    border-radius: 10px;
+	border-radius: 10px;
+	flex-grow: 2;
 }
 .about {
 	display: flex;
-	padding: 10px 150px 10px 150px;
+	justify-content: center;
 	background-color: blue;
-    border-radius: 10px;
+	border-radius: 10px;
+	flex-grow: 1;
 }
 .photos {
 	display: flex;
 	flex-direction: row;
-    align-items: center;
+	align-items: center;
 	justify-content: space-between;
-    margin-bottom: 2rem;
+	margin-bottom: 2rem;
 }
 hr {
 	height: 5px;
-    background-color: black;
-    width: 1325px;
+	background-color: black;
+	width: 1325px;
 }
 img {
-    height: 350px;
-    width: 530px;
-    object-fit: cover;
+	height: 350px;
+	width: 530px;
+	object-fit: cover;
 }
 .car {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 10px;
 }
 .flex-s {
-    display: flex;
-    flex-grow: 1;
+	display: flex;
+	flex-grow: 1;
 }
 .car-s {
-    display: flex;
-    flex-grow: 0.5;
+	display: flex;
+	flex-grow: 0.5;
 }
 .car-e {
-    display: flex;
-    flex-grow: 1;
+	display: flex;
+	flex-grow: 1;
 }
 button {
-    padding: 10px 40px;
-    background-color: blue;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    margin: 25px 0;
+	padding: 10px 40px;
+	background-color: blue;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	margin: 25px 0;
 }
